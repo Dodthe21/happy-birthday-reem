@@ -10,7 +10,7 @@ $(document).ready(function() {
             $(this).addClass("puff-bubble");
         });
         $("#glow").remove();
-        txt.hide().html("HBD REEM 🤍<br>Fill your 20s with joy,<br>it's an order<br>And keep annoying me").delay(750).fadeIn(300);
+        txt.hide().html("HBD REEM 🤍<br>FILL YOUR 20s WITH JOY,<br>IT'S AN ORDER<br>AND KEEP ANNOYING ME").delay(750).fadeIn(300);
         $("#candle").animate(
             {
             opacity: ".5"
