@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <link rel="icon" href="Fly Bats logo.png">
+<style>
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.photo-gallery img {
+  width: 42%;
+  max-width: 180px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+</style>
 
 </head>
 <body>
@@ -28,7 +45,7 @@
          <div class="burn" id="flame"></div>
        </div>
      </div>
-<div id="extra-content" style="display:none; text-align:center; margin:25px auto; color:white;">
+<div id="extra-content" style="text-align:center; margin:25px auto; color:white;">
   <button id="memories-btn">Open your memories</button>
   <div id="memories" style="display:none; margin:15px;">
     <div class="photo-gallery">
