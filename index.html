@@ -28,5 +28,26 @@
          <div class="burn" id="flame"></div>
        </div>
      </div>
+<div id="extra-content" style="display:none; text-align:center; margin:25px auto; color:white;">
+  <button id="memories-btn">Open your memories</button>
+  <div id="memories" style="display:none; margin:15px;">
+    <p>Add your photos here later.</p>
+  </div>
+
+  <button id="secret-btn">One last thing</button>
+  <p id="secret-message" style="display:none;">
+    You're 20 now. Act like it. Anyway, happy birthday Reem.
+  </p>
+</div>
+
+<script>
+document.getElementById("memories-btn").onclick = function() {
+  document.getElementById("memories").style.display = "block";
+};
+
+document.getElementById("secret-btn").onclick = function() {
+  document.getElementById("secret-message").style.display = "block";
+};
+</script>
 </body>
 </html>
